@@ -1,2 +1,2 @@
-discord_bot/node_modules/**
-discord_bot/config.json
+node_modules/**
+config.json
