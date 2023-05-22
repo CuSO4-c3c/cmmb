@@ -1,0 +1,29 @@
+{
+  "name": "amaka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "node discord_bot/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misawaa/data_synthesis.git"
+  },
+  "author": "misawaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misawaa/data_synthesis/issues"
+  },
+  "homepage": "https://github.com/misawaa/data_synthesis#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "eslint": "^8.41.0",
+    "no-one-left-behind": "^0.0.1-security",
+    "npm": "^9.6.7",
+    "npx": "^10.2.2"
+  },
+  "devDependencies": {}
+}
