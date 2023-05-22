@@ -35,15 +35,11 @@ client.on('ready', () => {
 });
 
 
-// ping command
-///*
 client.on('interactionCreate', async interaction => {
     if(!interaction.isChatInputCommand()) { return }
     cmd[interaction.commandName].exec(interaction)
 });
-//*/
+
 
 
 client.login(config.token)
-//token 
-//client id 
